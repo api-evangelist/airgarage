@@ -1,7 +1,29 @@
 aid: airgarage
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/airgarage.png
 name: AirGarage
-description: AirGarage is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  AirGarage is a full-service parking management platform that helps property
+  owners operate their parking lots and garages as revenue-generating real
+  estate assets. The company combines proprietary data, full-service operations,
+  and proactive pricing strategy: license plate recognition and aerial cameras
+  capture real-time occupancy and compliance data, dynamic pricing automatically
+  adjusts rates based on demand, aggregator marketing lists spaces across
+  channels, on-the-ground teams handle real-time enforcement, and a managed
+  driver-support operation processes mobile payments. Property owners get a
+  real-time dashboard with transparency into revenue, occupancy, and market
+  trends, on a revenue-share model with no long-term contracts. AirGarage is a
+  portfolio company of a16z.
 url: https://raw.githubusercontent.com/api-evangelist/airgarage/refs/heads/main/apis.yml
 x-type: company
 x-source: a16z-portfolio
@@ -12,9 +34,41 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Parking
+- Parking Management
+- Real Estate Technology
+- PropTech
+- Mobility
+- Payments
+- Enforcement
+- Dynamic Pricing
 apis: []
+common:
+- type: Website
+  url: https://www.airgarage.com
+- type: Blog
+  url: https://www.airgarage.com/blog
+- type: Support
+  url: https://help.airgarage.com/hc/en-us
+- type: Login
+  url: https://dashboard.airgarage.com/login
+- type: TermsOfService
+  url: https://www.airgarage.com/legal-information#terms
+- type: PrivacyPolicy
+  url: https://www.airgarage.com/legal-information#privacy
+- type: About
+  url: https://www.airgarage.com/about
+- type: Careers
+  url: https://www.airgarage.com/careers
+- type: DomainSecurity
+  url: security/airgarage-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
